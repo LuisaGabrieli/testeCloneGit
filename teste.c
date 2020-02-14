@@ -1,17 +1,20 @@
 #include <stdlib.h>
 #include <stdio.h>
-//badkcv
+
 int main(){
 
-	int idade, inovo;
+	int idade, inovo, iorig;
 
 	printf("Digite sua idade: ");
 	scanf("%i", &idade);
 
 	inovo = idade - 1;
 
-	printf("Novo: %i\n", inovo);
-
-
+	printf("Sua nova idade: %i\n", inovo);
+	
+	iorig = idade + 1;
+	
+	printf("Sua idade original: %i", iorig);
+	
     return 0;
 }
