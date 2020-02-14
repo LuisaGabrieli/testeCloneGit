@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+//badkcv
 int main(){
 
 	int idade, inovo;
